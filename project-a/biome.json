@@ -1,0 +1,12 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.2.5/schema.json",
+  "extends": "//",
+  "root": false,
+  "overrides": [
+    {
+      "includes": ["src/components/ui/**"],
+      "linter": { "enabled": false },
+      "formatter": { "enabled": false }
+    }
+  ]
+}

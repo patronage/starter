@@ -1,0 +1,17 @@
+.claude/settings.local.json
+.dev.vars
+# Root ignores
+node_modules/
+dist/
+build/
+tmp/
+*.log
+*.local
+*.local.*
+.DS_Store
+.wrangler/
+.vite/
+coverage/
+.turbo/
+.vercel/
+.cache/

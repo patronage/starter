@@ -1,0 +1,26 @@
+{
+  "name": "project-b",
+  "version": "0.1.0",
+  "description": "TypeScript CLI/script project",
+  "type": "module",
+  "main": "src/index.ts",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "start": "tsx src/index.ts",
+    "lint": "biome lint src",
+    "format": "biome format --write src",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.5",
+    "@types/node": "^22.5.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
